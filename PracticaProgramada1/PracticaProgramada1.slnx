@@ -1,5 +1,7 @@
 <Solution>
-  <Project Path="Practica.BILL/Practica.BILL.csproj" />
-  <Project Path="Practica.DAL/Practica.DAL.csproj" />
+  <Project Path="Practica.BILL/Practica.BILL.csproj" Id="52e07a7d-b82c-4688-ab34-4396dfeb6ee3" />
+  <Project Path="Practica.DAL/Practica.DAL.csproj" Id="1186ca32-9d50-4d83-aad2-cd0002973d78" />
+  <Project Path="PracticaProgramada1.BLL/PracticaProgramada1.BLL.csproj" Id="d8cef8b7-fe1b-4e08-879f-746a917d9129" />
+  <Project Path="PracticaProgramada1.DAL/PracticaProgramada1.DAL.csproj" Id="0c58017e-db0e-47a6-90ba-0495f012ca6b" />
   <Project Path="PracticaProgramada1/PracticaProgramada1.csproj" />
 </Solution>
