@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|c:\\users\\jabad\\source\\repos\\practica_programada-1\\practica_programada-1\\practicaprogramada1\\practicaprogramada1\\practicaprogramada1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|solutionrelative:practicaprogramada1\\practicaprogramada1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 303,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PracticaProgramada1",
+              "DocumentMoniker": "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\PracticaProgramada1.csproj",
+              "RelativeDocumentMoniker": "PracticaProgramada1\\PracticaProgramada1.csproj",
+              "ToolTip": "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\PracticaProgramada1.csproj",
+              "RelativeToolTip": "PracticaProgramada1\\PracticaProgramada1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-07T03:46:06.171Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
