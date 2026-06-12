@@ -1,0 +1,42 @@
+﻿@using PracticaProgramada1.BLL.DTO
+@model IEnumerable<MostrarClienteDTO>
+
+@{
+    ViewData["Title"] = "Registros de Clientes";
+}
+
+<div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="mb-0">Listado de Clientes</h1>
+        <a class="btn btn-primary" asp-action="RegistroCliente" asp-controller="Cliente">
+            + Registrar Cliente
+        </a>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body">
+            <p class="text-muted mb-3">Gestión de Clientes del sistema</p>
+
+            <div class="table-responsive">
+                <table id="tbClientes" class="table table-hover align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre completo</th>
+                            <th>Correo Electrónico</th>
+                            <th>Teléfono</th>
+                            <th>Fecha de Registro</th>
+                            <th style="width: 180px;">Acciones</th>
+                        </tr>
+                    </thead>
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="~/Views/Shared/_ValidationScriptsPartial.cshtml" />
+    <script src="~/js/Cliente.js" asp-append-version="true"></script>
+}
