@@ -11,58 +11,7 @@
 
         inicializarTabla() {
 
-            this.tabla = $('#tbClientes').DataTable({
-
-                ajax: {
-                    url: '/Cliente/ObtenerClientes',
-                    type: 'GET',
-                    dataSrc: 'dato'
-                },
-
-                columns: [
-
-                    {
-                        data: null,
-                        render: function (data) {
-                            return `${data.nombre} ${data.apellido}`;
-                        }
-                    },
-
-                    { data: 'correoElectronico' },
-                    { data: 'telefono' },
-
-
-
-                    {
-                        data: null,
-
-                        orderable: false,
-                        render: function (data, type, row) {
-
-                            return `
-                                <button
-                                    type="button"
-                                    class="btn btn-sm btn-warning btnEditar"
-                                    data-id="${row.ID}"
-                                    data-nombre="${row.nombre}"
-                                    data-primerapellido="${row.Apellido}"
-                                    data-correo="${row.Email}"
-                                    data-telefono="${row.Telefono}"
-                                    data-nacimiento="${row.fechaRegistro}"
-                                    <i class="bi bi-pencil"></i>
-                                </button>
-
-                                <button
-                                    type="button"
-                                    class="btn btn-sm btn-danger eliminar"
-                                    data-id="${row.ID}">
-                                    <i class="bi bi-trash"></i>
-                                </button>
-                            `;
-                        }
-                    }
-                ],
-
+            this.tabla = $('#tblClientes').DataTable({
                 language: {
                     url: 'https://cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json'
                 }
@@ -71,8 +20,41 @@
 
         registrarEventos() {
 
-            //logica para editar y eliminar clientes
-           
+            $('#tblClientes tbody').on('click', '.btnEditar', function () {
+
+                const btn = $(this);
+
+                $('#modalEditarCliente input[name="ID"]').val(btn.data('id'));
+                $('#modalEditarCliente input[name="nombre"]').val(btn.data('nombre'));
+                $('#modalEditarCliente input[name="apellido"]').val(btn.data('apellido'));
+                $('#modalEditarCliente input[name="email"]').val(btn.data('email'));
+
+                const modal = new bootstrap.Modal(document.getElementById('modalEditarCliente'));
+                modal.show();
+            });
+
+            $('#tblClientes tbody').on('click', '.btnEliminar', function () {
+
+                const id = $(this).data('id');
+
+                if (confirm("¿Eliminar cliente?")) {
+
+                    fetch(`/Cliente/Delete/${id}`, {
+                        method: 'POST'
+                    })
+                        .then(() => {
+                            location.reload();
+                        });
+                }
+            });
+
+            $('#btnGuardarCliente').click(function () {
+                $('#formCrearCliente').submit();
+            });
+
+            $('#btnActualizarCliente').click(function () {
+                $('#formEditarCliente').submit();
+            });
         }
     };
 
