@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PracticaProgramada1.BLL.DTO
 {
-    public class MostrarClienteDTO
+    public class ClienteDTO
     {
 
         public int ID { get; set; }
@@ -15,11 +15,11 @@ namespace PracticaProgramada1.BLL.DTO
 
         public string Apellido { get; set; } = null!;
 
-        public decimal Email { get; set; }
+        public string? Email { get; set; } //Se corrige, estaba como decimal pero es un correo electrónico
 
-        public DateTime FechaRegistro { get; set; } 
+        public DateTime FechaRegistro { get; set; }
 
-        public Telefono Telefono { get; set; } = null!;
+        public List<TelefonoDTO>? Telefonos { get; set; }
 
 
     }

@@ -11,11 +11,13 @@ namespace PracticaProgramada1.DAL.Entidad
     {
 
         [Key]
-        public string ID { get; set; }=null!;
-        public string nombre { get; set; }= null!;
-        public string apellido { get; set; }= null!;
-        public string email { get; set; }= null!;
-        public DateTime fechaRegistro { get; set; }
+        public int ID { get; set; }
+        public string Nombre { get; set; }= null!;
+        public string Apellido { get; set; }= null!;
+        public string Email { get; set; }= null!;
+        public DateTime FechaRegistro { get; set; }
+
+        public ICollection<Telefono> Telefonos { get; set; } = new List<Telefono>();
     }
 }
 

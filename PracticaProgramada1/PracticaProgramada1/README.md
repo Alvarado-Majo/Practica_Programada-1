@@ -14,12 +14,12 @@ https://github.com/Alvarado-Majo/Practica_Programada-1/tree/main
 ### a. Arquitectura del proyecto
 - Estructura en capas:
   - `PracticaProgramada1` — Aplicación web con Razor Pages (TargetFramework: `net10.0`).
-  - `Practica.BILL` — Capa de lógica de negocio (Class Library, .NET Framework 4.8).
-  - `Practica.DAL` — Capa de acceso a datos (Class Library, .NET Framework 4.8).
-- Separación de responsabilidades: UI (Razor Pages), Business (BILL), Data (DAL).
+  - `PracticaProgramada1.BLL` — Capa de lógica de negocio (Class Library, .NET Framework 10.0).
+  - `PracticaProgramada1.DAL` — Capa de acceso a datos (Class Library, .NET Framework 10.0).
+- Separación de responsabilidades: UI (Razor Pages and Views con Layout general), Business (BLL), Data (DAL).
 - Archivos estáticos y librerías front-end en `PracticaProgramada1/wwwroot/lib`.
 
-### b. Libraries o paquetes de NuGet utilizados
+### b. Librerías o paquetes de NuGet utilizados
 - No se detectaron `PackageReference` en el `csproj` principal (`PracticaProgramada1.csproj`).
 - Librerías front-end incluidas en `wwwroot/lib`:
   - `jquery`

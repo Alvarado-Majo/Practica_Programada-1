@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
-using PracticaProgramada1.BLL.DTO;
-using PracticaProgramada1.DAL.Entidad;
+using PracticaProgramada1.BLL;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,7 +10,9 @@ namespace PracticaProgramada1.BLL
     {
         public MapeoClases()
         {
-            CreateMap<Cliente, MostrarClienteDTO>().ReverseMap();
+            CreateMap<DAL.Entidad.Cliente, DTO.ClienteDTO>().ReverseMap();
+            CreateMap<DAL.Entidad.Telefono, DTO.TelefonoDTO>().ReverseMap();
         }
     }
 }
+    
