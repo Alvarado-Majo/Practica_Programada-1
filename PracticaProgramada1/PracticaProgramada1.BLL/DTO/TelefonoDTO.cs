@@ -12,7 +12,7 @@ namespace PracticaProgramada1.BLL.DTO
         public string Numero { get; set; } = null!;
         public string? Tipo { get; set; }
         public int FKCLIENTE { get; set; }
-        public string? NombreCliente { get; set; }
+      
     }
 }
 

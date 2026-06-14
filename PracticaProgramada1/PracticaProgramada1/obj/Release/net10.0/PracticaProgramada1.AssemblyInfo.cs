@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticaProgramada1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5450cc894fbabf0a18fcb9eb75c5685a67fde94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e40aae5bf51c09224e60afca3163189c1e5c3f5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticaProgramada1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticaProgramada1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj": {}
+    "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj": {
+    "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj",
         "projectName": "PracticaProgramada1.DAL",
-        "projectPath": "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj",
-        "packagesPath": "C:\\Users\\jabad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\obj\\",
+        "projectPath": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj",
+        "packagesPath": "C:\\Users\\XSF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jabad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\XSF\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

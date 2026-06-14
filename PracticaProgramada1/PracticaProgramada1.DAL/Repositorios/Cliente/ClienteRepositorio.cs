@@ -38,9 +38,12 @@ namespace PracticaProgramada1.DAL.Repositorios.Cliente
             throw new NotImplementedException();
         }
 
-        public Task<Entidad.Cliente> GetClienteById(int id)
+        public async Task<Entidad.Cliente> GetClienteById(int id)
         {
-            throw new NotImplementedException();
+            var cliente = await _context.Clientes
+    .Include(c => c.Telefonos)
+    .FirstOrDefaultAsync(c => c.ID == id);
+            return cliente;
         }
 
 

@@ -44,26 +44,19 @@ namespace PracticaProgramada1.Controllers
 
         // Editar Cliente
         [HttpPost]
-        public async Task<IActionResult> Edit(ClienteDTO dto)
+        public async Task<IActionResult> Edit(int id, ClienteDTO dto)
         {
-            if (!ModelState.IsValid)
-            {
-                var respuesta = await _clienteServicio.GetClientes();
-                return View("IndexClientes", respuesta.Dato);
-            }
-
-            await _clienteServicio.UpdateCliente(dto);
-
-            return RedirectToAction("IndexClientes");
+            var respuesta = await _clienteServicio.UpdateCliente(id, dto);
+            return Json(respuesta);
         }
 
         // Eliminar Cliente
         [HttpPost]
         public async Task<IActionResult> Delete(int id)
         {
-            await _clienteServicio.DeleteCliente(id);
+            var respuesta = await _clienteServicio.DeleteCliente(id);
 
-            return RedirectToAction("IndexClientes");
+            return Json(respuesta);
         }
 
         // Índice principal redirigiendo a la vista de clientes
@@ -71,5 +64,14 @@ namespace PracticaProgramada1.Controllers
         {
             return RedirectToAction("IndexClientes");
         }
+
+        [HttpGet]
+        public async Task<IActionResult> ObtenerDetalle(int id)
+        {
+            var respuesta = await _clienteServicio.GetClienteById(id);
+
+            return Json(respuesta);
+        }
+
     }
 }

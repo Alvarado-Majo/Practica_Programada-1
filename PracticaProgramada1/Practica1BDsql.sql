@@ -1,7 +1,7 @@
 -- Script Microsoft SQL
 
-CREATE DATABASE Practica1;
-GO
+--CREATE DATABASE Practica1;
+--GO
 
 USE Practica1;
 GO

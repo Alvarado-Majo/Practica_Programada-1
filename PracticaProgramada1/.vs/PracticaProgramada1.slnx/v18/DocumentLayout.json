@@ -1,28 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jabad\\source\\repos\\Practica_Programada-1\\Practica_Programada-1\\PracticaProgramada1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|c:\\users\\xsf\\documents\\u\\vii cuatrimestre\\practica pa\\practica_programada-1\\practicaprogramada1\\practicaprogramada1\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|solutionrelative:practicaprogramada1\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C58017E-DB0E-47A6-90BA-0495F012CA6B}|PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj|c:\\users\\xsf\\documents\\u\\vii cuatrimestre\\practica pa\\practica_programada-1\\practicaprogramada1\\practicaprogramada1.dal\\repositorios\\cliente\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C58017E-DB0E-47A6-90BA-0495F012CA6B}|PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj|solutionrelative:practicaprogramada1.dal\\repositorios\\cliente\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 303,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 281,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -58,6 +55,40 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.js",
+              "DocumentMoniker": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\wwwroot\\js\\Cliente.js",
+              "RelativeDocumentMoniker": "PracticaProgramada1\\wwwroot\\js\\Cliente.js",
+              "ToolTip": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\wwwroot\\js\\Cliente.js*",
+              "RelativeToolTip": "PracticaProgramada1\\wwwroot\\js\\Cliente.js*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T05:18:20.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
+              "RelativeToolTip": "PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIA3wC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T05:16:45.912Z",
+              "EditorCaption": ""
             }
           ]
         }

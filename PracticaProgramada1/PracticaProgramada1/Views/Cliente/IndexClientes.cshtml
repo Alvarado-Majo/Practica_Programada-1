@@ -35,49 +35,32 @@
                             <th>Fecha Registro</th>
                             <th style="width:18%">Acciones</th>
                         </tr>
+                 
                     </thead>
-
-                    <tbody>
-                        @if (Model != null && Model.Any())
-                        {
-                            foreach (var cliente in Model)
-                            {
-                                <tr>
-                                    <td>@cliente.ID</td>
-                                    <td>@cliente.Nombre</td>
-                                    <td>@cliente.Apellido</td>
-                                    <td>@cliente.Email</td>
-                                    <td>@cliente.FechaRegistro.ToString("dd/MM/yyyy")</td>
-
-                                    <td>
-                                        <button class="btn btn-primary btn-sm"
-                                                onclick="editarCliente(@cliente.ID)">
-                                            Editar
-                                        </button>
-
-                                        <button class="btn btn-danger btn-sm"
-                                                onclick="eliminarCliente(@cliente.ID)">
-                                            Eliminar
-                                        </button>
-                                    </td>
-                                </tr>
-                            }
-                        }
-                        else
-                        {
-                            <tr>
-                                <td colspan="6" class="text-center">
-                                    No hay registros disponibles
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
 
                 </table>
             </div>
         </div>
 
     </div>
+
+
+   
+        <div class="modal fade" id="modalDetalleCliente">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5>Teléfonos del Cliente</h5>
+                    </div>
+
+                    <div class="modal-body">
+                        <ul id="listaTelefonos"></ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     <!-- Modales -->
     @await Html.PartialAsync("_EditarCliente", new ClienteDTO())
@@ -90,7 +73,7 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 
-    <script src="~/js/cliente.js" asp-append-version="true"></script>
+    <script src="~/js/Cliente.js" asp-append-version="true"></script>
 }
 
 

@@ -113,7 +113,7 @@ namespace PracticaProgramada1.BLL.Services.Cliente
             return respuesta;
         }
 
-        public Task<Respuesta<ClienteDTO>> UpdateCliente(ClienteDTO Cliente)
+        public Task<Respuesta<ClienteDTO>> UpdateCliente(int id, ClienteDTO Cliente)
         {
             throw new NotImplementedException();
         }
