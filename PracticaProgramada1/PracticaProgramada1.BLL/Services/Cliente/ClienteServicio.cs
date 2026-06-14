@@ -84,9 +84,34 @@ namespace PracticaProgramada1.BLL.Services.Cliente
 
         public async Task<Respuesta<ClienteDTO>> DeleteCliente(int id)
         {
-            throw new NotImplementedException();
-        }
+            var respuesta = new Respuesta<ClienteDTO>();
 
+            var cliente = await _clienteRepositorio.GetClienteById(id);
+
+            if (cliente == null)
+            {
+                respuesta.esCorrecto = false;
+                respuesta.mensaje = "Cliente no encontrado";
+                respuesta.codigo = 404;
+                return respuesta;
+            }
+
+            var eliminado = await _clienteRepositorio.DeleteCliente(id);
+
+            if (!eliminado)
+            {
+                respuesta.esCorrecto = false;
+                respuesta.mensaje = "No se pudo eliminar el cliente";
+                respuesta.codigo = 500;
+                return respuesta;
+            }
+
+            respuesta.esCorrecto = true;
+            respuesta.mensaje = "Cliente eliminado correctamente";
+            respuesta.Dato = _mapper.Map<ClienteDTO>(cliente);
+
+            return respuesta;
+        }
         public async Task<Respuesta<ClienteDTO>> GetClienteById(int id)
         {
             var respuesta = new Respuesta<ClienteDTO?>();

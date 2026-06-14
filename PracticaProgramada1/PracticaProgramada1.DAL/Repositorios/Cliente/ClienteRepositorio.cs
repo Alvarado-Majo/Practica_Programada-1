@@ -23,9 +23,20 @@ namespace PracticaProgramada1.DAL.Repositorios.Cliente
         }
 
 
-        public Task<bool> DeleteCliente(int id)
+        public async Task<bool> DeleteCliente(int id)
         {
-            throw new NotImplementedException();
+            var cliente = await _context.Clientes
+                .Include(c => c.Telefonos)
+                .FirstOrDefaultAsync(c => c.ID == id);
+
+            if (cliente == null)
+                return false;
+
+            _context.Telefonos.RemoveRange(cliente.Telefonos);
+
+            _context.Clientes.Remove(cliente);
+
+            return await _context.SaveChangesAsync() > 0;
         }
 
         public Task<bool> DesactivarCliente(int id)
