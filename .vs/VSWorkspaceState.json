@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PracticaProgramada1"
+    "\\.github",
+    "\\PracticaProgramada1",
+    "\\PracticaProgramada1\\Practica.BILL",
+    "\\PracticaProgramada1\\PracticaProgramada1.BLL"
   ],
+  "SelectedNode": "\\PracticaProgramada1\\PracticaProgramada1.slnx",
   "PreviewInSolutionExplorer": true
 }

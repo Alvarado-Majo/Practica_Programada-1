@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C58017E-DB0E-47A6-90BA-0495F012CA6B}|PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj|c:\\users\\xsf\\documents\\u\\vii cuatrimestre\\practica pa\\practica_programada-1\\practicaprogramada1\\practicaprogramada1.dal\\repositorios\\cliente\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C58017E-DB0E-47A6-90BA-0495F012CA6B}|PracticaProgramada1.DAL\\PracticaProgramada1.DAL.csproj|solutionrelative:practicaprogramada1.dal\\repositorios\\cliente\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|c:\\users\\xsf\\documents\\u\\vii cuatrimestre\\practica pa\\practica_programada-1\\practicaprogramada1\\practicaprogramada1\\views\\cliente\\_crearcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|solutionrelative:practicaprogramada1\\views\\cliente\\_crearcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|c:\\users\\xsf\\documents\\u\\vii cuatrimestre\\practica pa\\practica_programada-1\\practicaprogramada1\\practicaprogramada1\\views\\cliente\\indexclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|solutionrelative:practicaprogramada1\\views\\cliente\\indexclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|c:\\users\\xsf\\documents\\u\\vii cuatrimestre\\practica pa\\practica_programada-1\\practicaprogramada1\\practicaprogramada1\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|solutionrelative:practicaprogramada1\\wwwroot\\js\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|c:\\users\\xsf\\documents\\u\\vii cuatrimestre\\practica pa\\practica_programada-1\\practicaprogramada1\\practicaprogramada1\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638CD9E5-0551-F8EE-86A4-A0F3652701B5}|PracticaProgramada1\\PracticaProgramada1.csproj|solutionrelative:practicaprogramada1\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,15 +75,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClienteRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
-              "RelativeDocumentMoniker": "PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
-              "ToolTip": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
-              "RelativeToolTip": "PracticaProgramada1.DAL\\Repositorios\\Cliente\\ClienteRepositorio.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAIA3wC0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T05:16:45.912Z",
+              "Title": "_CrearCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\Views\\Cliente\\_CrearCliente.cshtml",
+              "RelativeDocumentMoniker": "PracticaProgramada1\\Views\\Cliente\\_CrearCliente.cshtml",
+              "ToolTip": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\Views\\Cliente\\_CrearCliente.cshtml",
+              "RelativeToolTip": "PracticaProgramada1\\Views\\Cliente\\_CrearCliente.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-14T05:25:37.758Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cliente.js",
+              "DocumentMoniker": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\wwwroot\\js\\Cliente.js",
+              "RelativeDocumentMoniker": "PracticaProgramada1\\wwwroot\\js\\Cliente.js",
+              "ToolTip": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\wwwroot\\js\\Cliente.js",
+              "RelativeToolTip": "PracticaProgramada1\\wwwroot\\js\\Cliente.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T05:20:17.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexClientes.cshtml",
+              "DocumentMoniker": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\Views\\Cliente\\IndexClientes.cshtml",
+              "RelativeDocumentMoniker": "PracticaProgramada1\\Views\\Cliente\\IndexClientes.cshtml",
+              "ToolTip": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\Views\\Cliente\\IndexClientes.cshtml",
+              "RelativeToolTip": "PracticaProgramada1\\Views\\Cliente\\IndexClientes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-14T05:21:22.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "PracticaProgramada1\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\XSF\\Documents\\U\\VII Cuatrimestre\\practica pa\\Practica_Programada-1\\PracticaProgramada1\\PracticaProgramada1\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "PracticaProgramada1\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T05:21:18.097Z"
             }
           ]
         }
