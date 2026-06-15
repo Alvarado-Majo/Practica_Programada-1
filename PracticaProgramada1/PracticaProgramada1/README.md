@@ -20,13 +20,13 @@ https://github.com/Alvarado-Majo/Practica_Programada-1/tree/main
 - Archivos estáticos y librerías front-end en `PracticaProgramada1/wwwroot/lib`.
 
 ### b. Librerías o paquetes de NuGet utilizados
-- No se detectaron `PackageReference` en el `csproj` principal (`PracticaProgramada1.csproj`).
 - Librerías front-end incluidas en `wwwroot/lib`:
   - `jquery`
   - `bootstrap`
   - `jquery-validation`
   - `jquery-validation-unobtrusive`
-- Las librerías de las capas de clase usan ensamblados del framework (`System`, `System.Core`, etc.) (ver `Practica.BILL.csproj` y `Practica.DAL.csproj`).
+- Las librerías de las capas de clase usan ensamblados del framework (`System`, `System.Core`, etc.) (ver `PracticaProgramada1.BILL.csproj` y `PracticaProgramada1.DAL.csproj`).
+- Entity Framework . Core, Design y Automapper utilizados. 
 
 ### c. Principios de SOLID y patrones de diseño utilizados
 - Principios aplicados (a nivel de arquitectura y responsabilidades):
@@ -35,6 +35,10 @@ https://github.com/Alvarado-Majo/Practica_Programada-1/tree/main
   - DIP e IoC consideraciones: diseño orientado a dependencias entre capas (se sugiere usar interfaces para inyección si se extiende).
 - Patrones de diseño:
   - Arquitectura por capas (Layered Architecture).
-  - Patrón Repository y/o patrón Service (estructura prevista en la `Practica.DAL` y `Practica.BILL`).
+  - Patrón Repository y/o patrón Service (estructura prevista en la `PracticaProgramada1.DAL` y `PracticaProgramada1.BILL`).
 
-Nota: Detalles concretos de implementación (p. ej. interfaces y clases) pueden consultarse en las carpetas `Practica.BILL` y `Practica.DAL`.
+  Resumen: - Especificación: Arquitectura en capas (Razor Pages UI, BLL, DAL); Paquetes: Microsoft.EntityFrameworkCore, AutoMapper, jQuery, Bootstrap; Principios: SRP, SoC; Patrones: Repository, Service.
+
+Nota: Detalles concretos de implementación (p. ej. interfaces y clases) pueden consultarse en las carpetas `PracticaProgramada1.BILL` y `PracticaProgramada1.DAL`.
+
+
