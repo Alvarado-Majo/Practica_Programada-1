@@ -138,9 +138,39 @@ namespace PracticaProgramada1.BLL.Services.Cliente
             return respuesta;
         }
 
-        public Task<Respuesta<ClienteDTO>> UpdateCliente(int id, ClienteDTO Cliente)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<Respuesta<ClienteDTO>> UpdateCliente(int id, ClienteDTO cliente)
+{
+    var respuesta = new Respuesta<ClienteDTO>();
+
+    var clienteExistente = await _clienteRepositorio.GetClienteById(id);
+
+    if (clienteExistente == null)
+    {
+        respuesta.esCorrecto = false;
+        respuesta.mensaje = "Cliente no encontrado";
+        respuesta.codigo = 404;
+        return respuesta;
+    }
+
+    cliente.ID = id;
+
+    var entidad = _mapper.Map<PracticaProgramada1.DAL.Entidad.Cliente>(cliente);
+
+    var actualizado = await _clienteRepositorio.UpdateCliente(entidad);
+
+    if (!actualizado)
+    {
+        respuesta.esCorrecto = false;
+        respuesta.mensaje = "No se pudo actualizar el cliente";
+        respuesta.codigo = 500;
+        return respuesta;
+    }
+
+    respuesta.esCorrecto = true;
+    respuesta.mensaje = "Cliente actualizado correctamente";
+    respuesta.Dato = cliente;
+
+    return respuesta;
+}
     }
 }

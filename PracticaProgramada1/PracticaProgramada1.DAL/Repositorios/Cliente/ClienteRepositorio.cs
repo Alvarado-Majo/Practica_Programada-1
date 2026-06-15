@@ -66,9 +66,19 @@ namespace PracticaProgramada1.DAL.Repositorios.Cliente
         }
 
 
-        public Task<bool> UpdateCliente(Entidad.Cliente Cliente)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<bool> UpdateCliente(Entidad.Cliente cliente)
+{
+    var clienteExistente = await _context.Clientes
+        .FirstOrDefaultAsync(c => c.ID == cliente.ID);
+
+    if (clienteExistente == null)
+        return false;
+
+    clienteExistente.Nombre = cliente.Nombre;
+    clienteExistente.Apellido = cliente.Apellido;
+    clienteExistente.Email = cliente.Email;
+
+    return await _context.SaveChangesAsync() > 0;
+}
     }
 }
